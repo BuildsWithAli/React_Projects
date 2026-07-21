@@ -101,3 +101,18 @@ nav ul li {
   display: flex;
   gap: 16px;
 }
+
+/* Extra styling for API Products Grid */
+.container div div img {
+  transition: transform 0.3s ease;
+}
+
+.container div div img:hover {
+  transform: scale(1.05);
+}
+
+/* Loading text styling */
+h2[style*="text-align: center"] {
+  font-family: "Poppins", sans-serif;
+  color: var(--gray);
+}
